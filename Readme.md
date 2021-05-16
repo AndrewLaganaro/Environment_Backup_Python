@@ -9,7 +9,7 @@ This simple script does just that by generating two files in a known folder, alt
 
 Both these files can be used to restore a full Python and R installation via Anaconda on Windows and Linux.
 
-In general the .yml file tends to bring problems with Anaconda mainly because of some packages metadata that may have come incorrect on their text file, wheres the packages.txt file always works, you'll always have to remember your Python and R version as this file doesn't provide that information by default.
+In general the .yml file tends to bring problems with Anaconda mainly because of some packages metadata that may have come incorrect on their text file, whereas the packages.txt file always works, you'll always have to remember your Python and R version as this file doesn't provide that information by default.
 
 You can get more information on how to correct the .yml text file issue with some regex functions on the link below, then the .yml file works flawlessly:
 
