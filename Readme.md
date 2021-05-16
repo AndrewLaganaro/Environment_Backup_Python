@@ -31,4 +31,6 @@ Because of that it's always good to mantain a 'main' version of your environment
 
 1. Add a file emission containing solely the Python version in case the .yml file doesn't works and you also can't fix it, you can use the Packages.txt and the ner Versions.txt in order to fully restore your configuration manually via conda
 
+1. Add the Brazilian translation version to a new .md file
+
 The files present on this repo are also my own backups that I did for myselft from my environment, currently I'm using Python 3.6 but I'm planning to change to Python 3.7 or maybe 3.8 soon enough. The long package list besides referring to the main ones also refers to dependencies and dependencie's dependencies. Feel free to use them as you wish.
