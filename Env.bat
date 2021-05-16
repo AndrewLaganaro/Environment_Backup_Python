@@ -5,7 +5,7 @@ ECHO Anaconda is ON
 call cd A:/config
 ECHO Folder locked in
 call conda env export > Data_Science.yml
-ECHO Enviroment file generated
+ECHO Environment file generated
 call pip freeze > Data_Science.txt
 ECHO Packages file generated
 ECHO ALL DONE!!
