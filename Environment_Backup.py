@@ -31,7 +31,7 @@ order = execOrder(execute)
 
 with folder(Save_to):
         
-    for execution, current in zip(execute.values(),exeindex):
+    for execution, current in zip(execute.values(), order):
         try:
             subprocess.run(execution, shell=True)
             
@@ -46,6 +46,6 @@ with folder(Save_to):
             if order.index(current) == 0:
                 print("Couldn't find backup folder")
             elif order.index(current) == 1:
-                print("Could not generate enviroment file")
+                print("Couldn't generate enviroment file")
             elif order.index(current) == 2:
-                print("Could not generate any file!")
+                print("Couldn't generate any file!")
