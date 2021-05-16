@@ -27,7 +27,7 @@ Because of that it's always good to mantain a 'main' version of your environment
 
 ### **Planned improvements:**
 
-1. The script may also be modified in order to change filenames periodically, say "Env_01/02/2021", "Env_01/02/2021" to help with maintainability
+1. The script may also be modified in order to change filenames periodically, say "Env_01/02/2021", "Env_01/03/2021" to help with maintainability
 
 1. Add a file emission containing solely the Python version in case the .yml file doesn't works and you also can't fix it, you can use the Packages.txt and the new Versions.txt in order to fully restore your configuration manually via conda
 
