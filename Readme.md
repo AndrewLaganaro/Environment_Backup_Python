@@ -35,4 +35,4 @@ Because of that, it’s always good to maintain a ‘main’ version of your env
 
 The files present on this repo are also my own backups that I did for myself from my environment, currently I’m using Python 3.6 but I’m planning to change to Python 3.7 or maybe 3.8 soon enough. The long package list besides referring to the main ones also refers to dependencies and dependencies from dependencies. Feel free to use them as you wish.
 
-> [Brazilian Readme](Readme.md)
+> [Brazilian Readme](ReadmeBr.md)
