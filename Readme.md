@@ -2,7 +2,7 @@
 
 It’s always good to maintain your **Python** and **R** Anaconda environment packages properly listed and well-kept in case you have any problems with your computer or Anaconda’s installation.
 
-This simple script does just that by generating two files in a known folder, although I think anaconda should provide a clearer way to do it with more easiness:
+This simple script does just that by generating two files in a known folder:
 
 * Environment.yml
 * Packages.txt 
