@@ -21,7 +21,7 @@ def execOrder(to_order):
 Environment = "Data_Science"
 Environment_file = "Data_Science"
 Packages_file = "Data_Science"
-Save_to = "A:\Andrew\Desenvolvimento\Environment"
+Save_to = "..\Env_backup_files"
 
 execute = {"Turn env ON:":          f"conda activate {Environment}",
            "Generate env specs:":   f"conda env export > {Environment_file}.yml",
