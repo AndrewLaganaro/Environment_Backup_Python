@@ -31,6 +31,8 @@ Por isso é sempre bom manter uma versão "principal" do seu ambiente de vez em 
 
 1. Adicionar uma saída de arquivo contendo apenas a versão do Python, caso o arquivo .yml não funcione e você também não consiga consertá-lo, você pode usar o Packages.txt e o novo Versions.txt para restaurar totalmente sua configuração manualmente via conda
 
+1. Adicionar um segundo script para executar a instalação do backup considerando a possibilidade dos três arquivos gerados serem usados
+
 Os arquivos presentes neste repo também são meus próprios backups que fiz para mim do meu ambiente, atualmente estou usando Python 3.6, mas estou planejando mudar para Python 3.7 ou 3.8 em breve. A longa lista de pacotes, além de referir-se aos principais, também se refere a dependências e dependências de dependências. Sinta-se à vontade para usá-los como quiser.
 
 > [American Readme](Readme.md)

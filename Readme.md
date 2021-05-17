@@ -11,7 +11,7 @@ Both these files can be used to restore a full Python and R installation via Ana
 
 In general the .yml file tends to bring problems with Anaconda mainly because of some packages’ metadata that may have come incorrect on their text file, whereas the packages.txt file always works, you’ll always have to remember your Python and R version as this file doesn’t provide that information by default.
 
-You can get more information on how to correct the .yml text file issue with some regex functions on the link below, then the .yml file works flawlessly:
+You can get more information on how to correct the text file problem in the .yml's case with some regex functions on the link below, then the .yml file works flawlessly:
 
 - [Solve broken Env.yml file](https://github.com/conda/conda/issues/9624#issuecomment-801623523)
 
@@ -32,6 +32,8 @@ Because of that, it’s always good to maintain a ‘main’ version of your env
 1. Add a file emission containing solely the Python version in case the .yml file doesn’t works and you also can’t fix it, you can use the Packages.txt and the new Versions.txt in order to fully restore your configuration manually via conda
 
 1. Add the Brazilian translation version to a new .md file
+
+1. Add a second script in order to execute the backup's installation considering the case in which both three generated files are used
 
 The files present on this repo are also my own backups that I did for myself from my environment, currently I’m using Python 3.6 but I’m planning to change to Python 3.7 or maybe 3.8 soon enough. The long package list besides referring to the main ones also refers to dependencies and dependencies from dependencies. Feel free to use them as you wish.
 
