@@ -25,7 +25,6 @@ bleach
 blinker
 blis
 bokeh
-Bottleneck
 Brotli
 brotlipy
 cachetools
@@ -88,7 +87,6 @@ graphql-relay
 graphviz
 greenlet
 grpcio
-gunicorn
 h11
 h2
 h5py
@@ -106,8 +104,6 @@ imbalanced-learn
 immutables
 importlib-metadata
 incremental
-install
-investpy
 ipykernel
 ipython
 ipython-genutils
@@ -143,17 +139,13 @@ lxml
 Markdown
 MarkupSafe
 matplotlib
-matplotlib-inline
 mccabe
-MetaTrader5
 missingno
 mistune
 mock
 msgpack
-multimethod
 multipledispatch
 murmurhash
-named-constants
 nbclassic
 nbclient
 nbconvert
@@ -188,7 +180,6 @@ pickleshare
 Pillow
 pip-conflict-checker
 pipreqs
-plac
 plotly
 plotly-express
 preshed
@@ -209,7 +200,6 @@ pyct
 pydantic
 pydeck
 PyDispatcher
-pyerfa
 pyflakes
 pygame
 Pygments
@@ -298,7 +288,6 @@ typer
 typing-extensions
 tzlocal
 ujson
-Unidecode
 urllib3
 uvicorn
 validators
@@ -310,7 +299,6 @@ watchdog
 watchgod
 wcwidth
 webencodings
-websocket-client
 websockets
 Werkzeug
 widgetsnbextension
@@ -319,7 +307,6 @@ wincertstore
 wrapt
 xgboost
 xlrd
-yahoo-finance
 yarg
 yellowbrick
 zict
