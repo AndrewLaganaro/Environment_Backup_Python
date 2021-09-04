@@ -3,9 +3,6 @@ aiofiles
 alabaster
 altair
 altgraph
-anaconda-client
-anaconda-navigator
-anaconda-project
 aniso8601
 ann-visualizer
 ansi2html
@@ -63,8 +60,6 @@ cloudpickle
 clyent
 colorama
 comtypes
-conda-package-handling
-conda-verify
 confuse
 constantly
 contextlib2
