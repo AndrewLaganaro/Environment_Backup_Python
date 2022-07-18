@@ -1,21 +1,31 @@
+<img src="Images/Environment_Backup_Python.png" min-width="400px" max-width="400px" width="400px" align="center" alt="Environment_Backup_Python">
+
+---
+
 # Python Environment Backup
 
-##### Author: Andrew Laganaro
+##### Readme in English <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Environment_Backup_Python/blob/main/README.en.md" alt="American"> <img title="American" alt="American" src="Images/usa.png" width="20"></a></kbd>◀ </p>
+
+##### Léame en Español <p align="left"> ▶<kbd><a href="https://github.com/AndrewLaganaro/Environment_Backup_Python/blob/main/README.es.md" alt="Español"> <img title="Español" alt="Español" src="Images/es.png" width="20"></a></kbd>◀ </p>
 
 #### [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
 
-## 📜 About this project
+##### Autor: Andrew Laganaro
 
-#### A simple script generates a backup of a given Python environment
+---
 
->It’s always good to maintain your **Python** environment packages properly listed and well-kept in case you have any problems with your computer or Anaconda’s installation.
+## 📜 Sobre o projeto
 
-#### 🚀 Built with
+#### Um script simples gera um backup de um determinado ambiente Python
+
+> É sempre bom manter seus pacotes de **Python** devidamente listados e bem guardados para caso você tenha problemas com o seu computador ou com a instalação no sistema.
+
+#### 🚀 Construído com
 - 🐍Python
 - 🪐Jupyter Notebook
 - 🖼Drawio
 
-### 🛠 Projects
+### 🛠 Projetos
 
   [![Store Sales Analysis](https://img.shields.io/badge/Projects-Store%20Sales%20Analysis-orange)](https://github.com/AndrewLaganaro/Store_Sales_Analysis)
   
@@ -23,42 +33,45 @@
   
   [![Data Science Classes](https://img.shields.io/badge/Projects-Data%20Science%20Classes-red)](https://github.com/AndrewLaganaro/Data_Science_Classes)
 
-####  ⬇️ Take a look at my Portfolio ⬇️
+####  ⬇️ Dá uma olhada no meu Portfolio ⬇️
   
   [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
-  
-#### 📝 How to use this Project
 
-This simple script does just that by generating two files in a known folder:
+#### 🎯 Status geral do projeto
+
+![](https://us-central1-progress-markdown.cloudfunctions.net/progress/100)
+  
+#### 📝 Como usar este projeto
+
+Este script simples faz exatamente isso gerando dois arquivos em uma pasta conhecida:
 
 * Environment.yml
 * Packages.txt 
 
-Both these files can be used to restore a full Python installation via Anaconda on Windows and Linux.
+Ambos os arquivos podem ser usados para restaurar uma instalação completa do Python via Anaconda no Windows e Linux.
 
-##### 💻 Pre-requisites
+##### 💻 Pré-requisitos
 
-Before starting, make sure you've met the following requirements:
+Antes de começar, verifique se você atende aos seguintes requisitos:
 
-- You have installed the latest version of Python, pandas, numpy, matplotlib, seaborn, and Jupyter Notebook.
-    - At least Python 3.6 is required.
-- You have either Windows, Linux or Mac machine.
+- Você instalou a versão mais recente do Python, pandas, numpy, matplotlib, seaborn e Jupyter Notebook.
+    - No mínimo Python 3.6 é necessário
 
-##### 🚀 Installing Environment Backup Python
+##### 🚀 Instalando o ambiente de backup Python
 
-To install Environment Backup Python, follow these steps:
+Para instalar o Environment Backup Python, siga estas etapas:
 
-- 📁 Select a folder which you want your backup script to live in.
+- 📁 Selecione uma pasta na qual você deseja que seu script de backup fique.
 ```
 ...
-📁 Data Science ⬅️ 💻 Start your terminal here 💻
-    📁 Diamond_Analysis
-    📁 Python_Studies
-    📁 Iris_Analysis
-    ...
+📁 Data Science ⬅️ 💻 Inicie seu terminal aqui 💻
+     📁 Diamond_Analysis
+     📁 Python_Estudos
+     📁 Iris_Analysis
+     ...
 ```
     
-- 💻 For now the script isn't directly installable, but you can download it directly by cloning this repository:
+- 💻 Por enquanto o script não é instalável diretamente, mas você pode baixá-lo diretamente clonando este repositório:
 
 ```
 git clone https://github.com/AndrewLaganaro/Environment_Backup_Python
@@ -66,47 +79,43 @@ git clone https://github.com/AndrewLaganaro/Environment_Backup_Python
 
 ```
 ...
-📁 Data Science
-    📁 Diamond_Analysis
-    📁 Python_Studies
-    📁 Iris_Analysis
-    📁 Environment_Backup_Python
-    ...
+📁 Ciência de Dados
+     📁 Diamond_Analysis
+     📁 Python_Estudos
+     📁 Iris_Analysis
+     📁 Environment_Backup_Python
+     ...
 ```
 
-#### ☕ Using Environment Backup Python
+#### ☕ Usando o Environment Backup Python
 
-In general the .yml file tends to bring problems with Anaconda mainly because of some packages’ metadata that may have come incorrect on their text file, whereas the packages.txt file always works, you’ll always have to remember your Python version as this file doesn’t provide that information by default.
+Em geral arquivo .yml pode não funcionar com o Anaconda por conta dos metadados de alguns pacotes que podem ter vindo incorretos em seu arquivo de texto, enquanto o arquivo packages.txt sempre funciona, mas você terá que se lembrar de sua versão Python e R já que este arquivo não fornece essas informações por padrão.
 
-You can get more information on how to correct the text file problem in the .yml's case with some regex functions on the link below, then the .yml file works flawlessly:
+Você pode encontrar mais informações sobre como corrigir o problema do arquivo de texto no caso do .yml com algumas funções regex no link abaixo, e então o arquivo .yml vai funcionar perfeitamente:
 
-- [Solve broken Env.yml file](https://github.com/conda/conda/issues/9624#issuecomment-801623523)
+- [Resolver arquivo Env.yml não funcionando](https://github.com/conda/conda/issues/9624#issuecomment-801623523)
 
-Also, it’s possible do schedule the script execution in Windows and Linux in order to take consistent snapshots of your Python configuration given certain interval per say, days, weeks or months.
+Além disso, é possível agendar a execução do script no Windows e Linux para salvar versões consistentes da sua configuração Python dado um determinado intervalo de tempo, por exemplo dias, semanas ou meses.
 
-- [Schedule Backup Script in Windows](https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279)
+- [Programar script de backup no Windows](https://towardsdatascience.com/automate-your-python-scripts-with-task-scheduler-661d0a40b279)
 
-- [Schedule Backup Script in Linux](https://betterprogramming.pub/scheduling-python-scripts-on-linux-fa0d28a8f915)
+- [Programar script de backup no Linux](https://betterprogramming.pub/scheduling-python-scripts-on-linux-fa0d28a8f915)
 
-Although I advise doing that with caution because again, some snapshots may be taken in a bad moment of your system, say when you’ve downloaded a package that broke compatibility between other packages previously installed, for instance: a new package that relies on an *older version of pandas*, then by obligatorily downgrading it causes the break of scikit-learn and every other package that relied on your previous updated pandas version.
+Embora eu aconselhe a fazer isso com cautela pois, novamente, algumas versões da configuração podem ser tiradas em um mal momento do seu sistema, por exemplo quando você baixou um pacote que quebrou a compatibilidade com outros pacotes previamente instalados, por exemplo: um novo pacote que depende de uma **versão mais antiga do pandas** e ao fazer o downgrade obrigatório, acaba causando incompatiblidade com o scikit-learn e com todos os outros pacotes que dependiam da versão atualizada do pandas anterior.
 
-Because of that, it’s always good to maintain a ‘main’ version of your environment from time to time in order to prevent those issues to happen.
+Por isso é sempre bom manter uma versão "principal" do seu ambiente de vez em quando para evitar que esses problemas aconteçam.
 
-##### ⭐️ Features to be added
+##### ⭐️ Recursos a serem adicionados
 
-- [ ] The script may also be modified in order to change filenames periodically, say “Env_01/02/2021”, “Env_01/03/2021” to help with maintainability
+- [ ] O script também pode ser modificado para alterar os nomes dos arquivos periodicamente, por exemplo "Env_01/02/2021", "Env_01/03/2021" para ajudar na manutenção
 
-- [ ] Add a file emission containing solely the Python version in case the .yml file doesn’t work and you also can’t fix it, you can use the Packages.txt and the new Versions.txt in order to fully restore your configuration manually via conda
+- [ ] Adicionar uma saída de arquivo contendo apenas a versão do Python, caso o arquivo .yml não funcione e você também não consiga consertá-lo, você pode usar o Packages.txt e o novo Versions.txt para restaurar totalmente sua configuração manualmente via conda
 
-- [ ] Add the Brazilian translation version to a new .md file
-
-- [ ] Add a second script in order to execute the backup's installation considering the case in which both three generated files are used
-
-> [Brazilian Readme](ReadmeBr.md)
+- [ ] Adicionar um segundo script para executar a instalação do backup considerando a possibilidade dos três arquivos gerados serem usados
 
 ---
 
-####  ⬇️ Take a look at my Portfolio ⬇️
+####  ⬇️ Dá uma olhada no meu Portfolio ⬇️
   
   [![Portfolio](https://img.shields.io/badge/Projects-Portfolio-blue)](https://andrewcode.herokuapp.com)
   
